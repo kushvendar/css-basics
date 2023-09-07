@@ -1,0 +1,36 @@
+.container{
+    width: 300px;
+    height: 600px;
+    margin: 100px;
+    background-color: blanchedalmond;
+}
+.box{
+    width: 100px;
+    height: 100px;
+}
+.red{
+    position: relative;
+    top: 100px;
+    left: 100px;
+
+    background-color:red;
+}
+.blue{
+    top: 100px;
+    right: 100px;
+    position: absolute;
+background-color: blue;
+}
+.green{
+ position: fixed;
+ right:300px;
+    background-color: green;
+}
+.black{
+    background-color: black;
+    top: 1px;
+    position: sticky;
+}
+.spacer{
+    height: 300vh;
+}
